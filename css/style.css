@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  height: 130px;
+  box-shadow: 0px 0px 20px 1px rgba(12, 27, 34, 0.3);
+  display: block;
+  color: #292929;
+}
+
+.navbar-information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-information {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  list-style: none;
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mequi-logo {
+  margin-top: -5px;
+  width: 108px;
+  height: 95px;
+}
+
+.items-sale {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-sale:nth-child(2) {
+  background-color: #ffbc0d;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 6px;
+}
+
+.items-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -35px;
+  margin-left: 418px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.queTal {
+  background-color: #ffbc0d;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 840px;
+  left: 190px;
+}
