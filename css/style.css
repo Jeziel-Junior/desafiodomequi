@@ -13,8 +13,8 @@
 }
 
 .navbar-logo {
-  width: 108px;
   position: absolute;
+  width: 108px;
   left: 205px;
 }
 
@@ -63,7 +63,7 @@
 
 /* promotions */
 .promotions-image {
-  width: 100%;
+  width: 100vw;
 }
 
 .call-button {
