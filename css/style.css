@@ -63,12 +63,13 @@
 
 /* promotions */
 .promotions-image {
-  width: 100vw;
+  position: absolute;
+  min-width: 100vw;
 }
 
 .call-button {
-  position: relative;
-  bottom: 180px;
+  position: absolute;
+  bottom: 50px;
   left: 190px;
   background-color: #ffbc0d;
   padding: 15px 40px;
