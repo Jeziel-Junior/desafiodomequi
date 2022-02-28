@@ -55,6 +55,7 @@
 }
 
 .navbar-sale button {
+  cursor: pointer;
   color: rgba(0, 0, 0, 0.7);
   background-color: #ffbc0d;
   border: none;
@@ -139,6 +140,7 @@
 }
 
 .offers-button {
+  cursor: pointer;
   position: absolute;
   left: 50%;
   bottom: 8%;
@@ -190,6 +192,7 @@
 }
 
 .information-button {
+  cursor: pointer;
   margin-top: 20px;
   background-color: #ffbc0d;
   padding: 15px 25px;
@@ -239,6 +242,7 @@
 }
 
 .appOffer-button {
+  cursor: pointer;
   margin-right: 20px;
   color: #292929;
   background-color: #ffffff;
@@ -292,6 +296,7 @@ p {
 }
 
 .socialNetworks-icons {
+  cursor: pointer;
   color: #6f6f6f;
   display: flex;
   align-items: center;
@@ -309,6 +314,7 @@ p {
 }
 
 .socialNetworks-stores img {
+  cursor: pointer;
   width: auto;
   height: 40px;
   margin-right: 15px;
