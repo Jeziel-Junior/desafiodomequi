@@ -1,3 +1,4 @@
+/* Reset da Página */
 * {
   padding: 0;
   margin: 0;
@@ -340,7 +341,6 @@ p {
 /* Terms */
 
 .terms {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -351,18 +351,15 @@ p {
 }
 
 .terms-legal {
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
 }
 
 .terms-legal p {
-  /* border: 1px solid black; */
   margin-right: 20px;
 }
 
 .terms-image {
-  /* border: 1px solid black; */
   position: relative;
   display: flex;
   align-items: center;
