@@ -246,3 +246,136 @@
   border: none;
   font-size: 16px;
 }
+
+/* About */
+
+.about-container {
+  display: flex;
+  padding-bottom: 0px;
+  margin-left: 10%;
+  gap: 5%;
+  width: 70%;
+  min-width: 1220px;
+}
+
+.about-column {
+  width: 25%;
+  min-width: 254px;
+}
+
+.about-column,
+h4,
+p {
+  margin-bottom: 20px;
+}
+
+.about-column h4 {
+  font-weight: 500;
+  color: #292929;
+}
+
+.about-column p {
+  color: #6f6f6f;
+}
+
+/* Social Networks */
+
+.socialNetworks {
+  border-bottom: 1px solid rgba(41, 41, 41, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 0 auto;
+  width: 82%;
+}
+
+.socialNetworks-icons {
+  color: #6f6f6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socialNetworks-icons i {
+  text-align: center;
+  width: 36px;
+  border: 1px solid #6f6f6f;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.socialNetworks-stores img {
+  width: auto;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.fa-facebook-f:hover {
+  background-color: #3b588b;
+  color: white;
+}
+
+.fa-twitter:hover {
+  background-color: #40bee2;
+  color: white;
+}
+
+.fa-instagram {
+  color: #363636;
+}
+
+.fa-instagram:hover {
+  background-color: #f00075;
+  color: white;
+}
+
+.fa-youtube:hover {
+  background-color: #da3332;
+  color: white;
+}
+
+/* Terms */
+
+.terms {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 100px;
+  color: #6f6f6f;
+}
+
+.terms-legal {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+}
+
+.terms-legal p {
+  /* border: 1px solid black; */
+  margin-right: 20px;
+}
+
+.terms-image {
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.terms-image img {
+  position: absolute;
+  width: 40px;
+  right: 100%;
+  bottom: 22%;
+}
+
+.terms-image p {
+  margin-left: 10px;
+}
